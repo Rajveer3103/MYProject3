@@ -13,12 +13,12 @@ var Gunshot, WallHit
 var playerImage, CoverImage, OpponentImage, FireImage, BulletImage, Bullet2Image
 
 function preload(){
-  playerImage=loadImage("images/Player.png")
-  CoverImage=loadImage("images/box.png")
-  FireImage=loadImage("images/Fire.png")
-  OpponentImage=loadImage("images/Opponent.png")
-  BulletImage=loadImage("images/Bullet.png")
-  Bullet2Image=loadImage("images/Bullet2.png")
+  playerImage=loadImage("Images/Player.png")
+  CoverImage=loadImage("Images/box.png")
+  FireImage=loadImage("Images/Fire.png")
+  OpponentImage=loadImage("Images/Opponent.png")
+  BulletImage=loadImage("Images/Bullet.png")
+  Bullet2Image=loadImage("Images/Bullet2.png")
   Gunshot=loadSound("Gunshot.mp3")
   WallHit=loadSound("WallHit .mp3")
 }
